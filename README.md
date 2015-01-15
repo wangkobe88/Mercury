@@ -6,14 +6,19 @@ This is a sandbox system for recommendation engine using the 100K MovieLens Data
 It implement the classics recommendation algorithm,such as:
 
 (1) User Based Collaborative Filtering; 
+
 (2) Item Based Collaborative Filtering;
+
 (3) Personal Content Based Recommendation Algorithm;
+
 (4) FunkSVD,BiasSVD.
 
 I use several methods to improve the effectiveness of User Based Collaborative Filtering:
 
 (1) Clustering the items using Kmeans and EM;
+
 (2) Using different similarity calculation method,such as Cosine,Pearson Correlation Similarity,Euclidean distance;
+
 (3) Using matrix dimensionality reduction method such as PCA/ICA; 
 
 I am adding more and more algorithm and optimization.
