@@ -10,7 +10,7 @@ class FunkSVDBased_Predictor:
     def __init__(self, ds):
         self.ds = ds
 
-        self.feature_dim = 30
+        self.feature_dim = 100
         self.rated = zeros((self.ds.n_users, self.ds.n_items))
         self.predicted_score = zeros((self.ds.n_users, self.ds.n_items))
 
